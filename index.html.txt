@@ -235,7 +235,6 @@
       line-height: 1;
     }
 
-    /* Coaching section */
     .coaching {
       background: linear-gradient(180deg, var(--color-2), var(--color-3));
     }
@@ -285,7 +284,6 @@
       color: #15803d;
     }
 
-    /* Sport santé / bien-être */
     .health {
       background: linear-gradient(180deg, var(--color-3), var(--color-4));
     }
@@ -336,7 +334,6 @@
       background: #f9fafb;
     }
 
-    /* Contact section */
     .contact {
       background: linear-gradient(180deg, var(--color-4), #e5ecff);
     }
@@ -396,6 +393,8 @@
       justify-content: center;
       font-size: 0.8rem;
       color: #9ca3af;
+      text-align: center;
+      padding: 0.5rem;
     }
 
     .qr-box p {
@@ -403,7 +402,6 @@
       color: #6b7280;
     }
 
-    /* Tarifs section */
     .pricing {
       background: linear-gradient(180deg, #e5ecff, var(--color-5));
       color: #e5e7eb;
@@ -473,7 +471,6 @@
       color: #e5e7eb;
     }
 
-    /* Responsive */
     @media (max-width: 900px) {
       .hero-grid,
       .coaching-grid,
@@ -519,14 +516,13 @@
 </header>
 
 <main>
-  <!-- Présentation -->
   <section class="hero" id="presentation">
     <div class="wrapper hero-grid">
       <div>
         <div class="tagline">Coaching sportif – Salle, extérieur & domicile</div>
         <h1>Samuel Benhamou, coach passionné par le sport et la santé</h1>
         <p class="lead">
-          Son objectif&nbsp;: faire de chaque séance d'entraînement le moment fort de votre journée.
+          Son objectif : faire de chaque séance d'entraînement le moment fort de votre journée.
           Rigueur, énergie et bonne humeur se combinent pour vous pousser à donner le meilleur de vous-même,
           quel que soit votre niveau.
         </p>
@@ -548,32 +544,30 @@
       </div>
 
       <aside class="hero-card">
-        <h3>Ce que je vous apporte&nbsp;:</h3>
+        <h3>Ce que je vous apporte :</h3>
         <ul>
           <li>Un accompagnement personnalisé, adapté à vos objectifs et à votre réalité (travail, famille, contraintes de temps).</li>
           <li>Des séances rythmées, dynamiques et sécurisées, avec un suivi technique précis de vos mouvements.</li>
-          <li>Un cadre motivant pour retrouver le plaisir de bouger&nbsp;: performance, santé, silhouette ou simple besoin de se sentir mieux.</li>
+          <li>Un cadre motivant pour retrouver le plaisir de bouger : performance, santé, silhouette ou simple besoin de se sentir mieux.</li>
         </ul>
       </aside>
     </div>
   </section>
 
-  <!-- Types de coaching -->
   <section class="coaching" id="coaching">
     <div class="wrapper">
       <h2>Les différents types de coaching</h2>
 
       <div class="coaching-grid">
-        <!-- Coaching individuel -->
         <article class="coaching-card">
           <h3>Coaching individuel</h3>
           <p>
-            Un accompagnement 100&nbsp;% personnalisé, centré sur vos objectifs.
+            Un accompagnement 100 % personnalisé, centré sur vos objectifs.
             Nous construisons ensemble un programme sur mesure pour progresser de façon efficace et durable,
             en respectant votre niveau et vos contraintes.
           </p>
           <p>
-            Séances possibles&nbsp;:
+            Séances possibles :
           </p>
           <div class="pill-row">
             <span class="pill">À domicile</span>
@@ -581,19 +575,18 @@
             <span class="pill">Extérieur (parc, stade…)</span>
           </div>
           <p style="margin-top:0.8rem;font-size:0.86rem;color:#6b7280;">
-            Idéal pour&nbsp;: remise en forme, reprise après une pause, perte de poids, prise de masse, préparation spécifique.
+            Idéal pour : remise en forme, reprise après une pause, perte de poids, prise de masse, préparation spécifique.
           </p>
         </article>
 
-        <!-- Coaching collectif / small group -->
         <article class="coaching-card">
-          <h3>Coaching collectif &amp; small group</h3>
+          <h3>Coaching collectif & small group</h3>
           <p>
             L'énergie du groupe au service de vos performances. Des séances dynamiques, fun et structurées,
             pour se dépasser ensemble dans une ambiance conviviale.
           </p>
           <p>
-            Formats proposés&nbsp;:
+            Formats proposés :
           </p>
           <div class="pill-row">
             <span class="pill pill-alt">Cours collectifs en salle</span>
@@ -609,14 +602,14 @@
     </div>
   </section>
 
-  <!-- Sport santé / bien-être + 3e volet -->
   <section class="health" id="health">
     <div class="wrapper health-grid">
       <div>
         <h2>Sport santé, mobilité & bien-être physique</h2>
         <p class="lead" style="margin-bottom:1rem;">
           Au-delà de la performance, mon approche est orientée <strong>sport santé</strong>.
-          L’objectif est de vous aider à construire un corps qui bouge bien, qui bouge longtemps, et qui vous donne confiance au quotidien.
+          L’objectif est de vous aider à construire un corps qui bouge bien, qui bouge longtemps,
+          et qui vous donne confiance au quotidien.
         </p>
 
         <ul class="health-list">
@@ -640,36 +633,35 @@
             <div class="health-bullet">3</div>
             <div>
               <strong>Énergie & équilibre de vie</strong><br>
-              Retrouver le plaisir de bouger, diminuer le stress, mieux dormir et vous sentir plus léger(e)
-              au travail comme à la maison.
+              Retrouver le plaisir de bouger, diminuer le stress, mieux dormir
+              et vous sentir plus léger(e) au travail comme à la maison.
             </div>
           </li>
         </ul>
       </div>
 
       <aside class="highlight-box">
-        <strong>3<sup>e</sup> volet&nbsp;: construire votre routine bien-être</strong><br><br>
+        <strong>3<sup>e</sup> volet : construire votre routine bien-être</strong><br><br>
         On ne se contente pas de cocher une séance dans la semaine.  
-        Ensemble, on installe des habitudes simples et réalistes&nbsp;:
+        Ensemble, on installe des habitudes simples et réalistes :
         <ul style="margin-top:0.7rem;padding-left:1.1rem;">
-          <li>intégrer davantage de mouvement dans vos journées&nbsp;;</li>
-          <li>apprendre à mieux récupérer entre les séances&nbsp;;</li>
+          <li>intégrer davantage de mouvement dans vos journées ;</li>
+          <li>apprendre à mieux récupérer entre les séances ;</li>
           <li>trouver un équilibre entre progrès, plaisir et contraintes du quotidien.</li>
         </ul>
         <br>
-        L’idée&nbsp;: faire du sport un pilier de votre santé, pas une contrainte de plus dans l’agenda.
+        L’idée : faire du sport un pilier de votre santé, pas une contrainte de plus dans l’agenda.
       </aside>
     </div>
   </section>
 
-  <!-- Contact -->
   <section class="contact" id="contact">
     <div class="wrapper contact-grid">
       <div>
         <h2>Informations de contact & prise de rendez-vous</h2>
         <p class="lead" style="margin-bottom:1rem;">
           Pour réserver une séance, poser vos questions ou discuter de votre projet,
-          vous pouvez me contacter directement via les canaux suivants&nbsp;:
+          vous pouvez me contacter directement via les canaux suivants :
         </p>
 
         <ul class="contact-list">
@@ -694,14 +686,14 @@
         </ul>
 
         <p style="font-size:0.9rem;color:#6b7280;margin-top:1rem;">
-          Décrivez-moi vos objectifs, vos disponibilités et votre niveau actuel&nbsp;:
+          Décrivez-moi vos objectifs, vos disponibilités et votre niveau actuel :
           je vous proposerai un accompagnement cohérent et progressif.
         </p>
       </div>
 
       <aside class="qr-box">
         <div class="qr-placeholder">
-          <span>Insérer ici votre<br>QR code de prise<br>de rendez-vous</span>
+          Insérer ici votre<br>QR code de prise<br>de rendez-vous
         </div>
         <p>
           Scannez le QR code pour accéder directement à votre prise de rendez-vous ou à votre page de contact.
@@ -710,7 +702,6 @@
     </div>
   </section>
 
-  <!-- Tarifs -->
   <section class="pricing" id="tarifs">
     <div class="wrapper">
       <h2>Tarifs des coachings</h2>
@@ -720,23 +711,21 @@
       </p>
 
       <div class="pricing-grid">
-        <!-- Séance indiv -->
         <article class="price-card">
           <h3>Coaching individuel à la séance</h3>
-          <div class="price-amount">70&nbsp;€ / séance</div>
+          <div class="price-amount">70 € / séance</div>
           <div class="price-note">Paiement à la séance, idéal pour tester ou pour un besoin ponctuel.</div>
           <ul>
-            <li>Durée moyenne&nbsp;: 1 heure</li>
+            <li>Durée moyenne : 1 heure</li>
             <li>À domicile, en salle ou en extérieur</li>
             <li>Programme personnalisé selon vos objectifs</li>
           </ul>
         </article>
 
-        <!-- Pack 10 -->
         <article class="price-card highlight">
           <h3>Pack 10 séances individuelles</h3>
-          <div class="price-amount">600&nbsp;€ le pack</div>
-          <div class="price-note">Soit 60&nbsp;€ par séance – engagement sur votre progression.</div>
+          <div class="price-amount">600 € le pack</div>
+          <div class="price-note">Soit 60 € par séance – engagement sur votre progression.</div>
           <ul>
             <li>Suivi régulier et progression planifiée</li>
             <li>Adaptations en fonction de vos disponibilités</li>
@@ -744,7 +733,6 @@
           </ul>
         </article>
 
-        <!-- Small group -->
         <article class="price-card">
           <h3>Coaching small group</h3>
           <div class="price-amount">Sur devis</div>
